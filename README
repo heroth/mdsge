@@ -9,7 +9,7 @@ We have several different filters.
 to do: transscribe kalman.ox to matlab kalman.m
 
 2. Smolyak Kalman filter. A simple filter based on deterministic integration.
-to do:
+to do: transcribe smolyakkalman.ox to matlab smolyakkalman.m
 
 3. Particle filter. A simple filter based on sequential importance resampling.
 to do:
