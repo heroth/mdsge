@@ -5,9 +5,17 @@ This is matlab code to estimate nonlinear state space models.
 We have several different filters.
 
 1. Kalman filter for linear Gaussian models.
+
+to do: transscribe kalman.ox to matlab kalman.m
+
 2. Smolyak Kalman filter. A simple filter based on deterministic integration.
+to do:
+
 3. Particle filter. A simple filter based on sequential importance resampling.
+to do:
+
 4. Smolyak particle filter. A mixture of 2. and 3.
+to do:
 
 Moreover we have a Metropolis-Hasting sampler for parameter posterior estimation.
 
@@ -17,12 +25,17 @@ mh_plot.m		plot the density estimation
 mh_print.m		print some statistics of the density estimation
 mh-example-normal.mh	example with normal density
 
+to do: adjust to the filter estimation needs
+
 Finally we need to specify model files hadled to the estimation routines.
 
 6. model
+
+to do: think about structure
 
 The code shoudl have some example files.
 
 7. main-example-1
 8. main-example-2
-...
+
+to do: add some examples
