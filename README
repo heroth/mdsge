@@ -1,0 +1,24 @@
+MDSGE
+-----
+This is matlab code to estimate nonlinear state space models.
+
+We have several different filters.
+
+1. Kalman filter for linear Gaussian models.
+2. Smolyak Kalman filter. A simple filter based on deterministic integration.
+3. Particle filter. A simple filter based on sequential importance resampling.
+4. Smolyak particle filter. A mixture of 2. and 3.
+
+Moreover we have a Metropolis-Hasting sampler for parameter posterior estimation.
+
+5. Metroplis-Hastings
+
+Finally we need to specify model files hadled to the estimation routines.
+
+6. model
+
+The code shoudl have some example files.
+
+7. main-example-1
+8. main-example-2
+...
