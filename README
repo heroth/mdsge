@@ -12,6 +12,10 @@ We have several different filters.
 Moreover we have a Metropolis-Hasting sampler for parameter posterior estimation.
 
 5. Metroplis-Hastings
+mh.m			the metroplis-hastings algorithm
+mh_plot.m		plot the density estimation
+mh_print.m		print some statistics of the density estimation
+mh-example-normal.mh	example with normal density
 
 Finally we need to specify model files hadled to the estimation routines.
 
