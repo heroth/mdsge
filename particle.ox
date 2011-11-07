@@ -33,12 +33,6 @@ nldge::ParticleLogLikeli()
 		vwi = resample(vw/dws)-1;				// selection step in c++
 		ms = ms[vwi][];						// on normalized weights
 		mx = mx[vwi][];
-																									//timeres += (timer()-time)/100;
-		vxm = meanc(ms);					// remember for state draw
-		vxs = sqrt(varc(ms));
-		mxm  |= vxm;
-		mxsu |= vxm+vxs;
-		mxsl |= vxm-vxs;
-	}
+																	}
 	return loglikeli;
 }
